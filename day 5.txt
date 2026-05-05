@@ -1,0 +1,99 @@
+1. function ()
+
+#include<iostream>
+using namespace std;
+void printMsg() {
+    cout << "Hellow World from the function call" << endl;
+}
+int main() {
+    
+        cout << "Hello World!" << endl;
+        printMsg();
+}
+
+//arguments with return type
+
+#include<iostream>
+using namespace std;
+void printMsg() {
+    cout << "Hellow World from the function call" << endl;
+}
+
+
+void add (int a, int b) {
+    cout<< a+b << endl ;
+}
+
+int main() {
+    add(3,4);
+}
+
+
+2. Write a function that takes number as input in cock-tail . You have to print total volume of the cock if in each bottle 250ml cock. 
+
+#include<iostream>
+using namespace std;
+
+int cockVol(int n) {
+int vol = n * 250 ;
+	return vol;
+}
+
+int main() {
+	int n;
+	cout << "Enter the number of Cock-tails : " << endl;
+	cin >> n;
+    cout<<cockVol(n)<<endl;
+	return 0;
+}
+
+
+3. Pointer topic 
+
+#include<iostream>
+using namespace std;
+
+int main() {
+	int value = 100 ;
+	int *p = &value ;
+	cout << "Value of pointer : " << *p <<endl ;
+	cout << "Value of address : " << p << endl;
+	
+	*p = 200 ;
+	cout << "Value of pointer : " << *p <<endl ;
+	cout << "Value : " << value <<endl;
+	cout << "Value of address : " << p << endl;
+	
+	
+	return 0;
+}
+
+
+4. WAP having 10% discount using refrance update the original bill amount.
+
+// call by value
+#include<iostream>
+using namespace std;
+
+int discount(int price) {
+    int dis = 0.1* price;
+    int orgPrice = price - dis ;
+    return orgPrice;
+}
+
+int main() {
+	int price; 
+	cout << "Enter the bill amount : " ;
+	cin >> price;
+	
+	cout << "Bill Price : " << discount(price) << endl;
+	
+	return 0;
+}
+
+// call by reference
+
+
+
+5. WAP to swap the two number using pointer.
+
