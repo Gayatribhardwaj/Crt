@@ -1,0 +1,1 @@
+// 7 WAP in c++ that takes a single alphabet character from the user you have to determine it is vowel or consonent.

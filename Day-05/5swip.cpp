@@ -1,0 +1,1 @@
+//5. WAP to swap the two number using pointer.

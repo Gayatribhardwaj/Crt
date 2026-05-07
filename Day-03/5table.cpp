@@ -1,0 +1,1 @@
+//5. Create a table of 5 using for loop
