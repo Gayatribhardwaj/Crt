@@ -1,0 +1,8 @@
+# Basic oprations of stack
+
+1. push() = to insert elemnt into stack
+2. pop() = to remove on element from top into stack
+3. top() or peek() = return the top element of stack 
+4. isEmpty() = is stack is empty
+5. isFull() = is stack is full
+6. Size() = give the size of number of stack
